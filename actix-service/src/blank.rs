@@ -1,7 +1,7 @@
 use std::marker::PhantomData;
 
-use futures::future::{ok, FutureResult};
-use futures::{Async, Poll};
+use futures01::future::{ok, FutureResult};
+use futures01::{Async, Poll};
 
 use super::{NewService, Service};
 

@@ -1,4 +1,4 @@
-use futures::{Async, Future, Poll};
+use futures01::{Async, Future, Poll};
 
 use super::{IntoNewService, NewService, Service};
 use crate::cell::Cell;
@@ -234,8 +234,8 @@ where
 
 #[cfg(test)]
 mod tests {
-    use futures::future::{ok, FutureResult};
-    use futures::{Async, Poll};
+    use futures01::future::{ok, FutureResult};
+    use futures01::{Async, Poll};
     use std::cell::Cell;
     use std::rc::Rc;
 

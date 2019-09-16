@@ -2,7 +2,7 @@ use std::cell::RefCell;
 use std::rc::Rc;
 use std::sync::Arc;
 
-use futures::{Future, IntoFuture, Poll};
+use futures01::{Future, IntoFuture, Poll};
 
 mod and_then;
 mod and_then_apply;

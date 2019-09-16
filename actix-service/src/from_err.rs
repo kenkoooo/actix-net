@@ -1,6 +1,6 @@
 use std::marker::PhantomData;
 
-use futures::{Async, Future, Poll};
+use futures01::{Async, Future, Poll};
 
 use super::{NewService, Service};
 
@@ -159,7 +159,7 @@ where
 
 #[cfg(test)]
 mod tests {
-    use futures::future::{err, FutureResult};
+    use futures01::future::{err, FutureResult};
 
     use super::*;
     use crate::{IntoNewService, NewService, Service, ServiceExt};

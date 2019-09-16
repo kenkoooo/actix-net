@@ -1,6 +1,6 @@
 use std::marker::PhantomData;
 
-use futures::{Future, Poll};
+use futures01::{Future, Poll};
 
 use super::NewService;
 

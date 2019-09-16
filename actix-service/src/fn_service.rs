@@ -1,7 +1,7 @@
 use std::marker::PhantomData;
 
-use futures::future::{ok, Future, FutureResult};
-use futures::{try_ready, Async, IntoFuture, Poll};
+use futures01::future::{ok, Future, FutureResult};
+use futures01::{try_ready, Async, IntoFuture, Poll};
 
 use crate::{IntoNewService, IntoService, NewService, Service};
 

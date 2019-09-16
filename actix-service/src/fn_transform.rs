@@ -1,7 +1,7 @@
 use std::marker::PhantomData;
 
-use futures::future::{ok, FutureResult};
-use futures::IntoFuture;
+use futures01::future::{ok, FutureResult};
+use futures01::IntoFuture;
 
 use crate::apply::Apply;
 use crate::{IntoTransform, Service, Transform};

@@ -1,5 +1,5 @@
-use futures::future::{err, ok, Either, FutureResult};
-use futures::{Async, Future, IntoFuture, Poll};
+use futures01::future::{err, ok, Either, FutureResult};
+use futures01::{Async, Future, IntoFuture, Poll};
 
 use crate::{NewService, Service};
 

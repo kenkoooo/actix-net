@@ -1,7 +1,7 @@
 use std::rc::Rc;
 use std::sync::Arc;
 
-use futures::{Async, Future, IntoFuture, Poll};
+use futures01::{Async, Future, IntoFuture, Poll};
 
 use crate::transform_err::{TransformFromErr, TransformMapInitErr};
 use crate::{IntoNewService, NewService, Service};

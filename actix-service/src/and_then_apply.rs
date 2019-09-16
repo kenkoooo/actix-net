@@ -1,6 +1,6 @@
 use std::rc::Rc;
 
-use futures::{Async, Future, Poll};
+use futures01::{Async, Future, Poll};
 
 use crate::and_then::AndThen;
 use crate::from_err::FromErr;
@@ -129,8 +129,8 @@ where
 
 #[cfg(test)]
 mod tests {
-    use futures::future::{ok, FutureResult};
-    use futures::{Async, Future, Poll};
+    use futures01::future::{ok, FutureResult};
+    use futures01::{Async, Future, Poll};
 
     use crate::{IntoNewService, IntoService, NewService, Service, ServiceExt};
 
